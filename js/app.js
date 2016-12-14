@@ -11,17 +11,35 @@ var AppRouter = Backbone.Router.extend({
    },
 
    showHome: function(){
-      appContainer.innerHTML = "<h1>Welcome Home</h1>"
-   },
+      appContainer.innerHTML =
+         `<div class =  "container background">
+            <div class="hovereffect">
+                  <img class="img-responsive" src="./images/hipsterlogo.png" alt="">
+                  <div class="overlay">
+                     <h2>Paul Swift - Create Something</h2>
+                        <p class="icon-links">
+                           <a href="#works">
+                              <span>My Works<span>
+                           </a>
+                           <a href="#contact">
+                              <span>Contact Me</span>
+                           </a>
+                        </p>
+                  </div>
+            </div>
+         </div>`
 
-   showWorks: function(){
-      appContainer.innerHTML = "<h2>Works Page</h2>"
    },
 
    showContact: function(){
       appContainer.innerHTML = "<h2>Contact Page</h2>"
 
    },
+
+   showWorks: function(){
+      appContainer.innerHTML = "<h2>Works Page</h2>"
+   },
+
 
    initialize: function(){
 
