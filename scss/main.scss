@@ -4,6 +4,7 @@
 
 
 #app-container{
+    font-family: Open Sans;
 
    .home-background{
       background: url('../images/wood-stack.jpg') center top no-repeat;
@@ -30,16 +31,16 @@
        position: absolute;
        overflow: hidden;
        left: 0;
-   	top: auto;
-   	bottom: 0;
-   	padding: 1em;
-   	height: 4.75em;
-      background-color: rgba(0,0,0,0.4);
-   	color: #3c4a50;
-   	-webkit-transition: -webkit-transform 0.35s;
-   	transition: transform 0.35s;
-   	-webkit-transform: translate3d(0,100%,0);
-   	transform: translate3d(0,100%,0);
+   	 top: auto;
+   	 bottom: 0;
+   	 padding: 1em;
+   	 height: 4.75em;
+       background-color: rgba(0,0,0,0.4);
+   	 color: #3c4a50;
+   	 -webkit-transition: -webkit-transform 0.35s;
+   	 transition: transform 0.35s;
+   	 -webkit-transform: translate3d(0,100%,0);
+   	 transform: translate3d(0,100%,0);
    }
 
    .hovereffect img {
@@ -62,9 +63,9 @@
        font-size: 17px;
        padding: 10px;
        background: rgba(0, 0, 0, 0.6);
-   	float: left;
-   	margin: 0px;
-   	display: inline-block;
+   	 float: left;
+   	 margin: 0px;
+   	 display: inline-block;
    }
 
    .hovereffect a.info {

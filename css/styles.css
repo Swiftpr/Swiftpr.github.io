@@ -367,109 +367,111 @@ textarea {
 * {
   box-sizing: border-box; }
 
-#app-container .home-background {
-  background: url("../images/wood-stack.jpg") center top no-repeat;
-  background-size: cover;
-  height: 100%; }
-#app-container .hovereffect {
-  width: 100%;
-  height: 100%;
-  float: left;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  cursor: default; }
-#app-container .img-responsive {
-  margin-bottom: 400px; }
-#app-container .hovereffect .overlay {
-  width: 100%;
-  position: absolute;
-  overflow: hidden;
-  left: 0;
-  top: auto;
-  bottom: 0;
-  padding: 1em;
-  height: 4.75em;
-  background-color: rgba(0, 0, 0, 0.4);
-  color: #3c4a50;
-  -webkit-transition: -webkit-transform 0.35s;
-  transition: transform 0.35s;
-  -webkit-transform: translate3d(0, 100%, 0);
-  transform: translate3d(0, 100%, 0); }
-#app-container .hovereffect img {
-  display: block;
-  position: relative;
-  -webkit-transition: -webkit-transform 0.35s;
-  transition: transform 0.35s; }
-#app-container .hovereffect:hover img {
-  -webkit-transform: translate3d(0, -10%, 0);
-  transform: translate3d(0, -10%, 0); }
-#app-container .hovereffect h2 {
-  text-transform: uppercase;
-  color: #fff;
-  text-align: center;
-  position: relative;
-  font-size: 17px;
-  padding: 10px;
-  background: rgba(0, 0, 0, 0.6);
-  float: left;
-  margin: 0px;
-  display: inline-block; }
-#app-container .hovereffect a.info {
-  display: inline-block;
-  text-decoration: none;
-  padding: 7px 14px;
-  text-transform: uppercase;
-  color: #fff;
-  border: 1px solid #fff;
-  margin: 50px 0 0 0;
-  background-color: transparent; }
-#app-container .hovereffect a.info:hover {
-  box-shadow: 0 0 5px #fff; }
-#app-container .hovereffect p.icon-links a {
-  float: right;
-  color: #FFF;
-  font-size: 1.4em; }
-#app-container .hovereffect:hover p.icon-links a:hover,
-#app-container .hovereffect:hover p.icon-links a:focus {
-  color: #252d31; }
-#app-container .hovereffect h2,
-#app-container .hovereffect p.icon-links a {
-  -webkit-transition: -webkit-transform 0.35s;
-  transition: transform 0.35s;
-  -webkit-transform: translate3d(0, 200%, 0);
-  transform: translate3d(0, 200%, 0);
-  padding-right: 15px; }
-#app-container .hovereffect p.icon-links a span:before {
-  display: inline-block;
-  padding: 8px 10px;
-  speak: none;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-#app-container .hovereffect:hover .overlay,
-#app-container .hovereffect:hover h2,
-#app-container .hovereffect:hover p.icon-links a {
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0); }
-#app-container .hovereffect:hover h2 {
-  -webkit-transition-delay: 0.05s;
-  transition-delay: 0.05s; }
-#app-container .hovereffect:hover p.icon-links a:nth-child(3) {
-  -webkit-transition-delay: 0.1s;
-  transition-delay: 0.1s; }
-#app-container .hovereffect:hover p.icon-links a:nth-child(2) {
-  -webkit-transition-delay: 0.15s;
-  transition-delay: 0.15s; }
-#app-container .hovereffect:hover p.icon-links a:first-child {
-  -webkit-transition-delay: 0.2s;
-  transition-delay: 0.2s; }
-#app-container .contact-background {
-  background: url("../images/fire.jpeg") center top no-repeat;
-  background-size: cover;
-  height: 100%; }
-#app-container .works-background {
-  background: url("../images/chop.jpeg") center top no-repeat;
-  background-size: cover;
-  height: 100%; }
+#app-container {
+  font-family: Open Sans; }
+  #app-container .home-background {
+    background: url("../images/wood-stack.jpg") center top no-repeat;
+    background-size: cover;
+    height: 100%; }
+  #app-container .hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default; }
+  #app-container .img-responsive {
+    margin-bottom: 400px; }
+  #app-container .hovereffect .overlay {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    top: auto;
+    bottom: 0;
+    padding: 1em;
+    height: 4.75em;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #3c4a50;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0); }
+  #app-container .hovereffect img {
+    display: block;
+    position: relative;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s; }
+  #app-container .hovereffect:hover img {
+    -webkit-transform: translate3d(0, -10%, 0);
+    transform: translate3d(0, -10%, 0); }
+  #app-container .hovereffect h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    float: left;
+    margin: 0px;
+    display: inline-block; }
+  #app-container .hovereffect a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #fff;
+    margin: 50px 0 0 0;
+    background-color: transparent; }
+  #app-container .hovereffect a.info:hover {
+    box-shadow: 0 0 5px #fff; }
+  #app-container .hovereffect p.icon-links a {
+    float: right;
+    color: #FFF;
+    font-size: 1.4em; }
+  #app-container .hovereffect:hover p.icon-links a:hover,
+  #app-container .hovereffect:hover p.icon-links a:focus {
+    color: #252d31; }
+  #app-container .hovereffect h2,
+  #app-container .hovereffect p.icon-links a {
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0, 200%, 0);
+    transform: translate3d(0, 200%, 0);
+    padding-right: 15px; }
+  #app-container .hovereffect p.icon-links a span:before {
+    display: inline-block;
+    padding: 8px 10px;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+  #app-container .hovereffect:hover .overlay,
+  #app-container .hovereffect:hover h2,
+  #app-container .hovereffect:hover p.icon-links a {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  #app-container .hovereffect:hover h2 {
+    -webkit-transition-delay: 0.05s;
+    transition-delay: 0.05s; }
+  #app-container .hovereffect:hover p.icon-links a:nth-child(3) {
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s; }
+  #app-container .hovereffect:hover p.icon-links a:nth-child(2) {
+    -webkit-transition-delay: 0.15s;
+    transition-delay: 0.15s; }
+  #app-container .hovereffect:hover p.icon-links a:first-child {
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s; }
+  #app-container .contact-background {
+    background: url("../images/fire.jpeg") center top no-repeat;
+    background-size: cover;
+    height: 100%; }
+  #app-container .works-background {
+    background: url("../images/chop.jpeg") center top no-repeat;
+    background-size: cover;
+    height: 100%; }
 
 /*# sourceMappingURL=styles.css.map */
