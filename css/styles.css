@@ -368,7 +368,7 @@ textarea {
   box-sizing: border-box; }
 
 #app-container {
-  font-family: Open Sans; }
+  font-family: Lato; }
   #app-container .home-background {
     background: url("../images/wood-stack.jpg") center top no-repeat;
     background-size: cover;

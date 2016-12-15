@@ -11,6 +11,8 @@ var AppRouter = Backbone.Router.extend({
 
    },
 
+   //hover effect http://miketricking.github.io/dist/
+
    showHome: function(){
       appContainer.innerHTML =
          `<div class =  "home-background">
@@ -19,7 +21,6 @@ var AppRouter = Backbone.Router.extend({
                   <div class="overlay">
                      <h2>Creating, Building & Igniting </h2>
                         <p class="icon-links">
-                           <a href="#about"><span>About<span></a>
                            <a href="#contact"><span>Contact</span></a>
                            <a href="#works"><span>Works<span></a>
                         </p>
@@ -49,7 +50,7 @@ var AppRouter = Backbone.Router.extend({
                </a>
             </div>
 
-            
+
 
          </div>`
 
