@@ -19,9 +19,9 @@ var AppRouter = Backbone.Router.extend({
                   <div class="overlay">
                      <h2>Creating, Building & Igniting </h2>
                         <p class="icon-links">
+                           <a href="#about"><span>About<span></a>
                            <a href="#contact"><span>Contact</span></a>
                            <a href="#works"><span>Works<span></a>
-                           <a href="#about"><span>About<span></a>
                         </p>
                   </div>
             </div>
@@ -48,6 +48,8 @@ var AppRouter = Backbone.Router.extend({
                   <div>
                </a>
             </div>
+
+            
 
          </div>`
 
@@ -102,7 +104,7 @@ var AppRouter = Backbone.Router.extend({
                   <img src="./images/HTML-CSS.png" alt="...">
                   <div class="caption">
                     <h3>Basic HTML and CSS </h3>
-                    <p>A site mock up using basic HTML, CSS, and everyone's favorite "footwear" constructor</p>
+                    <p>A site mock up using basic HTML, CSS, and everyone's favorite "footwear" constructor.</p>
                      <p>Click to see the code at GitHub</p>
                      </a>
                   </div>
