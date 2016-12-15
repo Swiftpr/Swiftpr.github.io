@@ -72,7 +72,7 @@ var AppRouter = Backbone.Router.extend({
                   <img class = "pull-left" src="./images/iLuggit.png" alt="...">
                   <div class="work-thumb-text caption">
                     <h3>iLuggit</h3>
-                    <p>An app to help users move lagre house hold goods following Ubers business model. My team and I used React, Facebook's newest platform to build a streamline fulling functioning app.</p>
+                    <p>An app to help users move large house hold goods following Uber's business model. My team and I used React, Facebook's newest platform to build a streamline fulling functioning app.</p>
                     <p>Click to see the code at GitHub</p>
                      </a>
                   </div>
@@ -87,7 +87,7 @@ var AppRouter = Backbone.Router.extend({
                   <img src="./images/API.png" alt="...">
                   <div class="caption">
                     <h3>API</h3>
-                    <p>An individual project pulling from Netflix's API, then dymnaticly sorting it by list of programing per user. </p>
+                    <p>An individual project pulling from Netflix's API, then dynamically sorting it by list of programing per user. </p>
                     <p>Click to see the code at GitHub</p>
                      </a>
                   </div>
@@ -102,8 +102,8 @@ var AppRouter = Backbone.Router.extend({
                   <img src="./images/HTML-CSS.png" alt="...">
                   <div class="caption">
                     <h3>Basic HTML and CSS </h3>
-                    <p>A mock up of a site using basic HTML, CSS, and everyone favorite "footware" constructor. </p>
-                    <p>Click to see the code at GitHub</p>
+                    <p>A site mock up using basic HTML, CSS, and everyone's favorite "footwear" constructor</p>
+                     <p>Click to see the code at GitHub</p>
                      </a>
                   </div>
                 </div>
