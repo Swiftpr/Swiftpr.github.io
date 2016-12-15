@@ -5,7 +5,7 @@
 
 #app-container{
 
-   .background{
+   .home-background{
       background: url('../images/wood-stack.jpg') center top no-repeat;
       background-size: cover;
       height: 100%;
@@ -99,6 +99,7 @@
    	transition: transform 0.35s;
    	-webkit-transform: translate3d(0,200%,0);
    	transform: translate3d(0,200%,0);
+      padding-right: 15px;
    }
 
    .hovereffect p.icon-links a span:before {
@@ -135,6 +136,18 @@
    .hovereffect:hover p.icon-links a:first-child {
    	-webkit-transition-delay: 0.2s;
    	transition-delay: 0.2s;
+   }
+
+   .contact-background {
+      background: url('../images/fire.jpeg') center top no-repeat;
+      background-size: cover;
+      height: 100%;
+   }
+
+   .works-background {
+      background: url('../images/chop.jpeg') center top no-repeat;
+      background-size: cover;
+      height: 100%;
    }
 
 }

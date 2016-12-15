@@ -367,7 +367,7 @@ textarea {
 * {
   box-sizing: border-box; }
 
-#app-container .background {
+#app-container .home-background {
   background: url("../images/wood-stack.jpg") center top no-repeat;
   background-size: cover;
   height: 100%; }
@@ -438,7 +438,8 @@ textarea {
   -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
   -webkit-transform: translate3d(0, 200%, 0);
-  transform: translate3d(0, 200%, 0); }
+  transform: translate3d(0, 200%, 0);
+  padding-right: 15px; }
 #app-container .hovereffect p.icon-links a span:before {
   display: inline-block;
   padding: 8px 10px;
@@ -462,5 +463,13 @@ textarea {
 #app-container .hovereffect:hover p.icon-links a:first-child {
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s; }
+#app-container .contact-background {
+  background: url("../images/fire.jpeg") center top no-repeat;
+  background-size: cover;
+  height: 100%; }
+#app-container .works-background {
+  background: url("../images/chop.jpeg") center top no-repeat;
+  background-size: cover;
+  height: 100%; }
 
 /*# sourceMappingURL=styles.css.map */

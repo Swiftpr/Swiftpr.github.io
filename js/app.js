@@ -5,6 +5,7 @@ var appContainer = document.querySelector("#app-container")
 var AppRouter = Backbone.Router.extend({
    routes: {
       "contact" : "showContact",
+      "about" : 'showAbout',
       "works" : "showWorks",
       "*path": "showHome"
 
@@ -12,18 +13,15 @@ var AppRouter = Backbone.Router.extend({
 
    showHome: function(){
       appContainer.innerHTML =
-         `<div class =  "container background">
+         `<div class =  "home-background">
             <div class="hovereffect">
                   <img class="img-responsive" src="./images/hipsterlogo.png" alt="">
                   <div class="overlay">
-                     <h2>Paul Swift - Create Something</h2>
+                     <h2>Paul Swift - Create, Build, Ingite</h2>
                         <p class="icon-links">
-                           <a href="#works">
-                              <span>My Works<span>
-                           </a>
-                           <a href="#contact">
-                              <span>Contact Me</span>
-                           </a>
+                           <a href="#contact"><span>Contact</span></a>
+                           <a href="#works"><span>Works<span></a>
+                           <a href="#about"><span>About<span></a>
                         </p>
                   </div>
             </div>
@@ -31,13 +29,59 @@ var AppRouter = Backbone.Router.extend({
 
    },
 
+   showAbout: function(){
+      appContainer.innerHTML =
+         `<div class = "about-background">
+            <h1>about</h1>
+         </div>`
+
+   },
+
+
    showContact: function(){
-      appContainer.innerHTML = "<h2>Contact Page</h2>"
+      appContainer.innerHTML =
+         `<div class = "contact-background">
+         </div>`
 
    },
 
    showWorks: function(){
-      appContainer.innerHTML = "<h2>Works Page</h2>"
+      appContainer.innerHTML =
+         `<div class = "works-background">
+            <div class="media">
+               <div class="media-left media-middle">
+                  <a href="#">
+                     <img class="media-object" src="..." alt="...">
+                     </a>
+               </div>
+               <div class="media-body">
+                  <h4 class="media-heading">iLuggit</h4>
+                  My work is so good
+               </div>
+            </div>
+            <div class="media">
+               <div class="media-left media-middle">
+                  <a href="#">
+                     <img class="media-object" src="..." alt="...">
+                     </a>
+               </div>
+               <div class="media-body">
+                  <h4 class="media-heading">iLuggit</h4>
+                  My work is so good
+               </div>
+            </div>
+            <div class="media">
+               <div class="media-left media-middle">
+                  <a href="#">
+                     <img class="media-object" src="..." alt="...">
+                     </a>
+               </div>
+               <div class="media-body">
+                  <h4 class="media-heading">iLuggit</h4>
+                  My work is so good
+               </div>
+            </div>
+         </div>`
    },
 
 
