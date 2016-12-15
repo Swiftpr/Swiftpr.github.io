@@ -17,7 +17,7 @@ var AppRouter = Backbone.Router.extend({
             <div class="hovereffect">
                   <img class="img-responsive" src="./images/hipsterlogo.png" alt="">
                   <div class="overlay">
-                     <h2>Paul Swift - Create, Build, Ingite</h2>
+                     <h2>Creating, Building & Igniting </h2>
                         <p class="icon-links">
                            <a href="#contact"><span>Contact</span></a>
                            <a href="#works"><span>Works<span></a>
@@ -41,6 +41,14 @@ var AppRouter = Backbone.Router.extend({
    showContact: function(){
       appContainer.innerHTML =
          `<div class = "contact-background">
+            <div>
+               <a href="#"
+                  <div>
+                  <img class="works-logo" src="./images/logo-inite.png"
+                  <div>
+               </a>
+            </div>
+
          </div>`
 
    },
@@ -48,39 +56,61 @@ var AppRouter = Backbone.Router.extend({
    showWorks: function(){
       appContainer.innerHTML =
          `<div class = "works-background">
-            <div class="media">
-               <div class="media-left media-middle">
-                  <a href="#">
-                     <img class="media-object" src="..." alt="...">
+
+         <div>
+            <a href="#"
+               <div>
+               <img class="works-logo" src="./images/logo-build.png"
+               <div>
+            </a>
+         </div>
+
+            <div class="row">
+              <div class="col-sm-4 col-md-4">
+              <a href="https://github.com/PaulRSwift/iLuggit">
+                <div class=" works-thumb thumbnail">
+                  <img class = "pull-left" src="./images/iLuggit.png" alt="...">
+                  <div class="work-thumb-text caption">
+                    <h3>iLuggit</h3>
+                    <p>An app to help users move lagre house hold goods following Ubers business model. My team and I used React, Facebook's newest platform to build a streamline fulling functioning app.</p>
+                    <p>Click to see the code at GitHub</p>
                      </a>
-               </div>
-               <div class="media-body">
-                  <h4 class="media-heading">iLuggit</h4>
-                  My work is so good
-               </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="media">
-               <div class="media-left media-middle">
-                  <a href="#">
-                     <img class="media-object" src="..." alt="...">
+
+            <div class="row">
+              <div class="col-sm-4 col-md-4">
+              <a href="https://github.com/PaulRSwift/assignment-19-Netflix">
+                <div class="works-thumb thumbnail">
+                  <img src="./images/API.png" alt="...">
+                  <div class="caption">
+                    <h3>API</h3>
+                    <p>An individual project pulling from Netflix's API, then dymnaticly sorting it by list of programing per user. </p>
+                    <p>Click to see the code at GitHub</p>
                      </a>
-               </div>
-               <div class="media-body">
-                  <h4 class="media-heading">iLuggit</h4>
-                  My work is so good
-               </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="media">
-               <div class="media-left media-middle">
-                  <a href="#">
-                     <img class="media-object" src="..." alt="...">
+
+            <div class="row">
+              <div class="col-sm-4 col-md-4">
+              <a href="https://github.com/PaulRSwift/Assignment-07-CSS-Frameworks-SolrodStrand">
+                <div class="works-thumb thumbnail">
+                  <img src="./images/HTML-CSS.png" alt="...">
+                  <div class="caption">
+                    <h3>Basic HTML and CSS </h3>
+                    <p>A mock up of a site using basic HTML, CSS, and everyone favorite "footware" constructor. </p>
+                    <p>Click to see the code at GitHub</p>
                      </a>
-               </div>
-               <div class="media-body">
-                  <h4 class="media-heading">iLuggit</h4>
-                  My work is so good
-               </div>
+                  </div>
+                </div>
+              </div>
             </div>
+
+
          </div>`
    },
 

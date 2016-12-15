@@ -472,6 +472,20 @@ textarea {
   #app-container .works-background {
     background: url("../images/chop.jpeg") center top no-repeat;
     background-size: cover;
-    height: 100%; }
+    height: 100% auto; }
+  #app-container .works-logo {
+    position: fixed;
+    margin-left: 550px; }
+  #app-container .works-thumb {
+    background: rgba(0, 0, 0, 0.2);
+    border: none;
+    margin-left: 15px;
+    color: #FFF; }
+    #app-container .works-thumb h3 {
+      color: #FFF;
+      font-style: none; }
+    #app-container .works-thumb p {
+      color: #FFF;
+      font-style: none; }
 
 /*# sourceMappingURL=styles.css.map */
