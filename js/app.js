@@ -50,21 +50,29 @@ var AppRouter = Backbone.Router.extend({
                </a>
             </div>
 
-            <div>
-               <a href="https://www.linkedin.com/in/paul-swift-749a8720">
-                  <i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i>
+            <div class = "contact-left-column">
+               <h2>Create, Build & Ignites</h2>
+               <div>
+                  <a href="https://www.linkedin.com/in/paul-swift-749a8720">
+                     <i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i>
+                  </a>
+               <a href="https://github.com/PaulRSwift">
+                  <i class="fa fa-github fa-4x" aria-hidden="true"></i>
                </a>
-            <a href="https://github.com/PaulRSwift">
-               <i class="fa fa-github fa-4x" aria-hidden="true"></i>
-            </a>
+
+               </div>
+
+               <br/>
+
+               <div>
+                  <object data="./images/Resume.pdf" type="application/pdf" width="45%" height="45%"></object>
+               </div>
+
+               <br/>
+                  <a href="./images/Resume.pdf" target="_blank">Download the pdf</a>
 
             </div>
 
-            <div>
-               <object data="./images/Resume.pdf" type="application/pdf" width="25%" height="25%"></object>
-            </div>
-
-            <a href="./images/Resume.pdf" target="_blank">Download pdf file</a>
 
          </div>`
 

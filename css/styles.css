@@ -487,5 +487,12 @@ textarea {
     #app-container .works-thumb p {
       color: #FFF;
       font-style: none; }
+  #app-container .contact-left-column {
+    margin-left: 15px;
+    color: #FFF; }
+    #app-container .contact-left-column i {
+      color: #FFF; }
+    #app-container .contact-left-column a {
+      color: #FFF; }
 
 /*# sourceMappingURL=styles.css.map */
