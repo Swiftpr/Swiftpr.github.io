@@ -51,14 +51,21 @@ var AppRouter = Backbone.Router.extend({
             </div>
 
             <div class = "contact-left-column">
-               <h2>Create, Build & Ignites</h2>
+               <div class = "text-center">
+                  <h2>Create, Build & Ignite</h2>
+                     <p>I am a front end developer with 3 years of experience in health insurance technologies.</p>
+                  </div>
                <div>
                   <a href="https://www.linkedin.com/in/paul-swift-749a8720">
                      <i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i>
                   </a>
-               <a href="https://github.com/PaulRSwift">
-                  <i class="fa fa-github fa-4x" aria-hidden="true"></i>
-               </a>
+                  <a href="https://github.com/PaulRSwift">
+                     <i class="fa fa-github fa-4x" aria-hidden="true"></i>
+                  </a>
+
+                  <a href="mailto:swiftp103@gmail.com?subject=I saw your porffolio and resume, can we talk?">
+                     <i class="fa fa-envelope-o fa-4x"></i>
+                  </a>
 
                </div>
 
