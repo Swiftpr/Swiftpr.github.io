@@ -50,7 +50,12 @@ var AppRouter = Backbone.Router.extend({
                </a>
             </div>
 
+            <div>
+               <object data="./images/Resume.pdf" type="application/pdf" width="25%" height="25%">
+               </object>
+            </div>
 
+            <a class="btn resume" href="./images/Resume.pdf" target="_blank">Download pdf file</a>
 
          </div>`
 
