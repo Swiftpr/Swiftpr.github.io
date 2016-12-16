@@ -369,6 +369,9 @@ textarea {
 
 #app-container {
   font-family: Lato; }
+  #app-container .home-fa {
+    color: #fff;
+    margin-left: 10px; }
   #app-container .home-background {
     background: url("../images/wood-stack.jpg") center top no-repeat;
     background-size: cover;
@@ -441,10 +444,10 @@ textarea {
     transition: transform 0.35s;
     -webkit-transform: translate3d(0, 200%, 0);
     transform: translate3d(0, 200%, 0);
-    padding-right: 15px; }
+    padding-right: 25px; }
   #app-container .hovereffect p.icon-links a span:before {
     display: inline-block;
-    padding: 8px 10px;
+    padding: 8px;
     speak: none;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
@@ -457,11 +460,11 @@ textarea {
     -webkit-transition-delay: 0.05s;
     transition-delay: 0.05s; }
   #app-container .hovereffect:hover p.icon-links a:nth-child(3) {
-    -webkit-transition-delay: 0.1s;
-    transition-delay: 0.1s; }
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s; }
   #app-container .hovereffect:hover p.icon-links a:nth-child(2) {
-    -webkit-transition-delay: 0.15s;
-    transition-delay: 0.15s; }
+    -webkit-transition-delay: 0.4s;
+    transition-delay: 0.4s; }
   #app-container .hovereffect:hover p.icon-links a:first-child {
     -webkit-transition-delay: 0.2s;
     transition-delay: 0.2s; }

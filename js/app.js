@@ -20,10 +20,11 @@ var AppRouter = Backbone.Router.extend({
                   <img class="img-responsive" src="./images/hipsterlogo.png" alt="">
                   <div class="overlay">
                      <h2>Creating, Building & Igniting </h2>
-                        <p class="icon-links">
-                           <a href="#contact"><span>Contact</span></a>
-                           <a href="#works"><span>Works<span></a>
-                        </p>
+
+                           <p class="icon-links">
+                              <a href="#contact"><span>Contact</span></a>
+                              <a href="#works"><span>Works<span></a>
+                           </p>
                   </div>
             </div>
          </div>`
