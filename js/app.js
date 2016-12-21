@@ -55,17 +55,17 @@ var AppRouter = Backbone.Router.extend({
                <div class = "text-center">
                   <h2>Create, Build & Ignite</h2>
                      <p>I am a front end developer with 3 years of experience in health insurance technologies.</p>
-                  </div>
+               </div>
                <div>
                   <a href="https://www.linkedin.com/in/paul-swift-749a8720" target="_blank">
-                     <i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i>
+                     <i class="fa fa-linkedin-square fa-4x cl1" aria-hidden="true"></i>
                   </a>
                   <a href="https://github.com/PaulRSwift" target="_blank">
-                     <i class="fa fa-github fa-4x" aria-hidden="true"></i>
+                     <i class="fa fa-github fa-4x cl2" aria-hidden="true"></i>
                   </a>
 
                   <a href="mailto:swiftp103@gmail.com?subject=I saw your porffolio and resume, can we talk?">
-                     <i class="fa fa-envelope-o fa-4x"></i>
+                     <i class="fa fa-envelope-o fa-4x cl3"></i>
                   </a>
 
                </div>
@@ -98,6 +98,17 @@ var AppRouter = Backbone.Router.extend({
             </a>
          </div>
 
+            <a href="https://www.linkedin.com/in/paul-swift-749a8720" target="_blank">
+               <i class="fa fa-linkedin-square fa-4x work-links wl1" aria-hidden="true"></i>
+            </a>
+            <a href="https://github.com/PaulRSwift" target="_blank">
+               <i class="fa fa-github fa-4x work-links wl2" aria-hidden="true"></i>
+            </a>
+
+            <a href="mailto:swiftp103@gmail.com?subject=I saw your porffolio and resume, can we talk?">
+               <i class="fa fa-envelope-o fa-4x work-links wl3"></i>
+            </a>
+
             <div class="row">
               <div class="col-sm-4 col-md-4">
               <a href="https://github.com/PaulRSwift/iLuggit" target="_blank">
@@ -105,7 +116,7 @@ var AppRouter = Backbone.Router.extend({
                   <img class = "pull-left" src="./images/iLuggit.png" alt="...">
                   <div class="work-thumb-text caption">
                     <h3>iLuggit</h3>
-                    <p>An app to help users move large house hold goods following Uber's business model. My team and I used React, Facebook's newest platform to build a streamline fulling functioning app.</p>
+                    <p>An app to help users move large household goods following Uber's business model. My team and I used React, Facebook's newest platform to build a fulling functioning app.</p>
                     <p>Click to see the code at GitHub</p>
                      </a>
                   </div>
@@ -120,7 +131,7 @@ var AppRouter = Backbone.Router.extend({
                   <img src="./images/API.png" alt="...">
                   <div class="caption">
                     <h3>API</h3>
-                    <p>An individual project pulling from Netflix's API, then dynamically sorting it by list of programing per user. </p>
+                    <p>An individual project pulling from Netflix's API, then dynamically sorting it by list of programming per user. </p>
                     <p>Click to see the code at GitHub</p>
                      </a>
                   </div>

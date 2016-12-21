@@ -437,7 +437,7 @@ textarea {
     font-size: 1.4em; }
   #app-container .hovereffect:hover p.icon-links a:hover,
   #app-container .hovereffect:hover p.icon-links a:focus {
-    color: #252d31; }
+    color: orange; }
   #app-container .hovereffect h2,
   #app-container .hovereffect p.icon-links a {
     -webkit-transition: -webkit-transform 0.35s;
@@ -468,14 +468,24 @@ textarea {
   #app-container .hovereffect:hover p.icon-links a:first-child {
     -webkit-transition-delay: 0.2s;
     transition-delay: 0.2s; }
-  #app-container .contact-background {
-    background: url("../images/fire.jpeg") center top no-repeat;
-    background-size: cover;
-    height: 100%; }
   #app-container .works-background {
     background: url("../images/chop.jpeg") center top no-repeat;
     background-size: cover;
     height: 100% auto; }
+  #app-container .work-links {
+    color: black; }
+  #app-container .wl1 {
+    position: fixed;
+    margin-left: 760px;
+    margin-top: 400px; }
+  #app-container .wl2 {
+    position: fixed;
+    margin-left: 820px;
+    margin-top: 400px; }
+  #app-container .wl3 {
+    position: fixed;
+    margin-left: 880px;
+    margin-top: 400px; }
   #app-container .works-logo {
     position: fixed;
     margin-left: 550px; }
@@ -490,6 +500,10 @@ textarea {
     #app-container .works-thumb p {
       color: #FFF;
       font-style: none; }
+  #app-container .contact-background {
+    background: url("../images/fire.jpeg") center top no-repeat;
+    background-size: cover;
+    height: 100%; }
   #app-container .contact-left-column {
     margin-left: 15px;
     color: #FFF; }
@@ -497,5 +511,17 @@ textarea {
       color: #FFF; }
     #app-container .contact-left-column a {
       color: #FFF; }
+  #app-container .cl1 {
+    position: fixed;
+    margin-left: 750px;
+    margin-top: 350px; }
+  #app-container .cl2 {
+    position: fixed;
+    margin-left: 810px;
+    margin-top: 350px; }
+  #app-container .cl3 {
+    position: fixed;
+    margin-left: 875px;
+    margin-top: 350px; }
 
 /*# sourceMappingURL=styles.css.map */

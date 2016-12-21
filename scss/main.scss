@@ -97,7 +97,7 @@
 
    .hovereffect:hover p.icon-links a:hover,
    .hovereffect:hover p.icon-links a:focus {
-   	color: #252d31;
+   	color: orange;
    }
 
    .hovereffect h2,
@@ -145,11 +145,7 @@
    	transition-delay: 0.2s;
    }
 
-   .contact-background {
-      background: url('../images/fire.jpeg') center top no-repeat;
-      background-size: cover;
-      height: 100%;
-   }
+
 
    .works-background {
       background: url('../images/chop.jpeg') center top no-repeat;
@@ -157,9 +153,31 @@
       height: 100% auto;
    }
 
+   .work-links {
+      color: black;
+   }
+      .wl1{
+         position: fixed;
+         margin-left: 760px;
+         margin-top: 400px;
+      }
+      .wl2{
+         position: fixed;
+         margin-left: 820px;
+         margin-top: 400px;
+
+      }
+      .wl3{
+         position: fixed;
+         margin-left: 880px;
+         margin-top: 400px;
+
+      }
+
    .works-logo{
       position: fixed;
       margin-left: 550px;
+
    }
 
    .works-thumb {
@@ -177,6 +195,12 @@
       }
    }
 
+   .contact-background {
+      background: url('../images/fire.jpeg') center top no-repeat;
+      background-size: cover;
+      height: 100%;
+   }
+
    .contact-left-column {
       margin-left: 15px;
       color: #FFF;
@@ -188,8 +212,23 @@
          }
    }
 
+   .cl1{
+      position: fixed;
+      margin-left: 750px;
+      margin-top: 350px;
+   }
+   .cl2{
+      position: fixed;
+      margin-left: 810px;
+      margin-top: 350px;
 
+   }
+   .cl3{
+      position: fixed;
+      margin-left: 875px;
+      margin-top: 350px;
 
+   }
 
 
 }
