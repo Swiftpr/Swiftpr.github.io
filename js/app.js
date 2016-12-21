@@ -11,7 +11,7 @@ var AppRouter = Backbone.Router.extend({
 
    },
 
-   //hover effect http://miketricking.github.io/dist/
+//hover effect http://miketricking.github.io/dist/
 
    showHome: function(){
       appContainer.innerHTML =
@@ -57,10 +57,10 @@ var AppRouter = Backbone.Router.extend({
                      <p>I am a front end developer with 3 years of experience in health insurance technologies.</p>
                   </div>
                <div>
-                  <a href="https://www.linkedin.com/in/paul-swift-749a8720">
+                  <a href="https://www.linkedin.com/in/paul-swift-749a8720" target="_blank">
                      <i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i>
                   </a>
-                  <a href="https://github.com/PaulRSwift">
+                  <a href="https://github.com/PaulRSwift" target="_blank">
                      <i class="fa fa-github fa-4x" aria-hidden="true"></i>
                   </a>
 
@@ -100,7 +100,7 @@ var AppRouter = Backbone.Router.extend({
 
             <div class="row">
               <div class="col-sm-4 col-md-4">
-              <a href="https://github.com/PaulRSwift/iLuggit">
+              <a href="https://github.com/PaulRSwift/iLuggit" target="_blank">
                 <div class=" works-thumb thumbnail">
                   <img class = "pull-left" src="./images/iLuggit.png" alt="...">
                   <div class="work-thumb-text caption">
@@ -115,7 +115,7 @@ var AppRouter = Backbone.Router.extend({
 
             <div class="row">
               <div class="col-sm-4 col-md-4">
-              <a href="https://github.com/PaulRSwift/assignment-19-Netflix">
+              <a href="https://github.com/PaulRSwift/assignment-19-Netflix" target="_blank">
                 <div class="works-thumb thumbnail">
                   <img src="./images/API.png" alt="...">
                   <div class="caption">
@@ -130,7 +130,7 @@ var AppRouter = Backbone.Router.extend({
 
             <div class="row">
               <div class="col-sm-4 col-md-4">
-              <a href="https://github.com/PaulRSwift/Assignment-07-CSS-Frameworks-SolrodStrand">
+              <a href="https://github.com/PaulRSwift/Assignment-07-CSS-Frameworks-SolrodStrand" target="_blank">
                 <div class="works-thumb thumbnail">
                   <img src="./images/HTML-CSS.png" alt="...">
                   <div class="caption">
