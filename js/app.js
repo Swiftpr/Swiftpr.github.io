@@ -21,10 +21,22 @@ var AppRouter = Backbone.Router.extend({
                   <div class="overlay">
                      <h2>Creating, Building & Igniting </h2>
 
-                           <p class="icon-links">
-                              <a href="#contact"><span>Contact</span></a>
-                              <a href="#works"><span>Works<span></a>
-                           </p>
+                     <p class="icon-links">
+                        <a href="#contact"><span>Contact</span></a>
+                        <a href="#works"><span>Works<span></a>
+                     </p>
+
+                     <a href="https://www.linkedin.com/in/paul-swift-749a8720" target="_blank">
+                        <i class="fa fa-linkedin-square fa-2x hl" aria-hidden="true"></i>
+                     </a>
+                     <a href="https://github.com/PaulRSwift" target="_blank">
+                        <i class="fa fa-github fa-2x hl" aria-hidden="true"></i>
+                     </a>
+
+                     <a href="mailto:swiftp103@gmail.com?subject=I saw your porffolio and resume, can we talk?">
+                        <i class="fa fa-envelope-o fa-2x hl"></i>
+                     </a>
+
                   </div>
             </div>
          </div>`
