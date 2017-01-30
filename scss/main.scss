@@ -5,7 +5,7 @@
 
 
 #app-container{
-    font-family: Lato;
+    background-color: black;
 
     .home-fa {
       color: #fff;
@@ -16,6 +16,8 @@
       background: url('../images/wood-stack.jpg') center top no-repeat;
       background-size: cover;
       height: 100%;
+      background-color: #bbb;
+
    }
 
       .hovereffect {
@@ -153,6 +155,10 @@
       height: 100% auto;
    }
 
+   .hl{
+      color: #FFF;
+   }
+
    .work-links {
       color: black;
    }
@@ -198,12 +204,14 @@
    .contact-background {
       background: url('../images/fire.jpeg') center top no-repeat;
       background-size: cover;
-      height: 100%;
+      height: 170%;
    }
 
+
+
    .contact-left-column {
-      margin-left: 15px;
       color: #FFF;
+      padding-top: 50px;
          i{
             color: #FFF;
          }
@@ -212,27 +220,61 @@
          }
    }
 
+   .content-column {
+      position: absolute;
+      top: 40%;
+      left: 48%;
+      width: 500px;
+      height: 500px;
+      margin-top: -250px;
+      margin-left: -250px;
+   }
+
+   .resume{
+      position: absolute;
+      top: 90%;
+      left: 52%;
+      width: 500px;
+      height: 500px;
+      margin-top: -250px;
+      margin-left: -250px;
+
+   }
+
    .cl1{
-      position: fixed;
-      margin-left: 750px;
+      display: LinkedIn;
+      color: #FFF;
+      position: absolute;
+      left:38%;
       margin-top: 350px;
    }
    .cl2{
-      position: fixed;
-      margin-left: 810px;
+      color: #FFF;
+      position: absolute;
+      left: 50%;
       margin-top: 350px;
 
    }
    .cl3{
-      position: fixed;
-      margin-left: 875px;
+      color: #FFF;
+      position: absolute;
+      left: 60%;
       margin-top: 350px;
 
    }
 
-   .hl{
+   .pdf-download{
       color: #FFF;
-      
+      text-decoration: none;
+      margin-top: 80%;
+      margin-left: 33%;
+         a {
+            color: #FFF;
+         }
+   }
+
+   p{
+      text-shadow: 1px 1px #C8C5C5;
    }
 
 
