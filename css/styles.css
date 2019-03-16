@@ -556,7 +556,7 @@ textarea {
   #app-container p {
     text-shadow: 1px 1px #C8C5C5; }
     #app-container .page-gulfstream .header {
-  background-color: #2b455d;
+  background-color: #fff;
 }
 #app-container .page-gulfstream .header .header-inner--wrapper {
   max-width: 1200px;
@@ -659,7 +659,7 @@ textarea {
   position: relative;
 }
 #app-container .page-gulfstream .hero--image {
-  background-image: url(" https://fillmurray.com/1900/1080");
+  background-image: url("../images/g500_hero_image.jpg");
   padding-bottom: 100vw;
   background-position: center center;
   background-repeat: no-repeat;
@@ -732,7 +732,7 @@ textarea {
   width: 100%;
 }
 #app-container .page-gulfstream .content-body .body-content--flex .flex-child:last-of-type {
-  background-image: url(" https://fillmurray.com/200/300") cover no-repeat center;
+  background-image: url(" ../images/g500_image_1.jpg") cover no-repeat center;
 }
 #app-container .page-gulfstream .content-body .body-content-right {
   background-color: #2b455d;
@@ -740,7 +740,7 @@ textarea {
 }
 #app-container .page-gulfstream .content-body .body-content-right .flex-child:last-of-type {
   order: -1;
-  background-image: url(" https://fillmurray.com/200/300") cover no-repeat center;
+  background-image: url(" ../images/g500_image_2.jpg") cover no-repeat center;
 }
 #app-container .page-gulfstream .content-body .body-contact {
   margin: 40px auto;
