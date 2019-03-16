@@ -367,8 +367,7 @@ textarea {
 * {
   box-sizing: border-box; }
 
-#app-container {
-  background-color: black; }
+
   #app-container .home-fa {
     color: #fff;
     margin-left: 10px; }
