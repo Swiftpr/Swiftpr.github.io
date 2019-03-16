@@ -13,12 +13,12 @@ var AppRouter = Backbone.Router.extend({
    },
 
    showGulStream : function() {
-      console.log(test);
+
       appContainer.innerHTML =
          `<div class = "gulfstream-page-wrapper">
             <h1 id="test">Test</h1>
          </div>`
-
+         console.log(test);
    },
 
 //hover effect http://miketricking.github.io/dist/
