@@ -732,7 +732,9 @@ textarea {
   width: 100%;
 }
 #app-container .page-gulfstream .content-body .body-content--flex .flex-chid--image-flight {
-  background-image: url(" ../images/g500_image_1.jpg") center no-repeat;
+  background-image: url(" ../images/g500_image_1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 #app-container .page-gulfstream .content-body .body-content-right {
@@ -741,7 +743,9 @@ textarea {
 }
 #app-container .page-gulfstream .content-body .body-content-right .flex-chid--image-inside {
   order: -1;
-  background-image: url(" ../images/g500_image_2.jpg") center no-repeat;
+  background-image: url(" ../images/g500_image_2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 #app-container .page-gulfstream .content-body .body-contact {
