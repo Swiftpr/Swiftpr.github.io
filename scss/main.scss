@@ -278,4 +278,230 @@
    }
 
 
+   @gul-blue--primary : #2b455d;
+   @gul-blue--secondary : #041c2c;
+
+   .header {
+     background-color: @gul-blue--primary;
+
+     .header-inner--wrapper {
+       max-width: 1200px;
+       padding: 0 10px;
+       margin: 0 auto;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+     }
+
+     h1 {
+       flex: 0 1 70%;
+     }
+
+     .header-nav-triplet {
+       flex: 0 1 30%;
+       display: flex;
+       justify-content: space-around;
+       list-style-type: none;
+
+       > li {
+         flex: 0 1 auto;
+       }
+
+       .header-subnav-anchor--aircraft {
+         border-bottom: 2px solid transparent;
+         &:hover {
+           //hoving on Aircraft
+           border-bottom: 2px solid @gul-blue--secondary;
+           position: relative;
+
+           .header-accordion {
+             // nested Ul with aircraft list
+             //using opacity to avoid redraw of page
+             opacity: 1;
+             visibility: visible;
+             cursor: pointer;
+             transition: 0.25s opacity 0.5s;
+             z-index: 20;
+           }
+         }
+       }
+     }
+
+     .header-accordion {
+       list-style-type: none;
+       opacity: 0;
+       visibility: hidden;
+       position: absolute;
+       left: 0;
+       right: 0;
+       padding-inline-start: 0;
+       transition: 0.25s opacity;
+       background: rgba(255, 255, 255, 0.5);
+       padding: 5px 15px 5px 5px;
+       width: 90px;
+       max-width: 100%;
+
+       &:hover {
+         visibility: visible;
+         background: rgba(255, 255, 255, 0.5);
+       }
+
+       // li {
+       //   background: rgba(255, 255, 255, 0.5);
+       //   padding: 5px 15px 5px 5px;
+       // }
+       a {
+         color: black;
+
+         &:hover {
+           background: rgba(84, 107, 135, 0.7);
+           color: @gul-blue--primary;
+         }
+       }
+     }
+
+     .header-mobile {
+       visibility: hidden;
+     }
+
+     @media only screen and (max-width: 768px) {
+       background-color: rgba(84, 107, 135, 0.3);
+       padding: 0 40px;
+
+       .header-inner--wrapper {
+         overflow: hidden;
+       }
+
+       .header-mobile {
+         visibility: visible;
+         font-size: 1.5em;
+       }
+
+       .js-open {
+         transform: translateX(0) !important;
+       }
+
+       .header-nav-triplet {
+         flex-wrap: wrap;
+         flex-wrap: wrap;
+         position: absolute;
+         right: 6%;
+         top: 10px;
+         bottom: 100%;
+         z-index: 19;
+         background-color: @gul-blue--primary;
+         transform: translateX(290px);
+
+         .header-accordion {
+           opacity: 1;
+           visibility: visible;
+           position: static;
+         }
+
+         li {
+           flex: 0 1 100%;
+         }
+       }
+     }
+   }
+
+   .body {
+     .body--inner-wrapper {
+       max-width: 900px;
+       margin: 0 auto;
+       padding: 0 1vw;
+     }
+     .body-content--flex {
+       display: flex;
+       justify-content: space-betweceen;
+       align-items: center;
+       border: 1px solid black;
+       margin: 40px 0 0;
+       padding: 10px;
+       // border: 1px soild black;
+
+       .flex-child {
+         flex: 0 1 30%;
+         width: 250px;
+         max-width: 100%;
+       }
+
+       .flex-child--copy {
+         flex: 0 1 70%;
+         max-width: 500px;
+         width: 100%;
+       }
+     }
+
+     .body-content-right {
+       background-color: #2b455d;
+       color: white;
+       .flex-child:last-of-type {
+         order: -1;
+       }
+     }
+
+     .body-contact {
+       margin: 40px auto;
+       max-width: 300px;
+       width: 100%;
+     }
+
+     .body-contact--inner {
+       margin: 0 auto;
+     }
+
+     form {
+       text-align: right;
+     }
+
+     .body--contact--input {
+       input {
+         margin: 0 0 10px 10px;
+         line-height: 20px;
+       }
+
+       input[type='text'] {
+         width: 200px;
+       }
+
+       &.input--lg {
+         input {
+           line-height: 150px;
+         }
+
+         label {
+           vertical-align: top;
+         }
+       }
+     }
+
+     @media only screen and (max-width: 768px) {
+       .body-content-right {
+         background-color: #fff;
+         color: black;
+       }
+
+       .body-content--flex {
+         border: none;
+         flex-wrap: wrap;
+         justify-content: center;
+
+         .flex-child {
+           flex: 0 1 100%;
+         }
+
+         .flex-child:first-of-type {
+           order: 1;
+         }
+       }
+     }
+   }
+
+
+
+
+
+
+
 }
