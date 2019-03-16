@@ -73,7 +73,7 @@ var AppRouter = Backbone.Router.extend({
             <div class="hero-overlay">
               <div class="hero-overlay--inner">
                 <h3>
-                  Creating and Delivering the{" "}
+                  Creating and Delivering the
                   <b>
                     Worlds <span>Finest</span> Aviation Experience
                   </b>
@@ -99,8 +99,7 @@ var AppRouter = Backbone.Router.extend({
                   </p>
                 </div>
                 <div class="flex-child">
-                  <div>
-                    <p>Image</p>
+                  <div class="flex-chid--image-flight">
                   </div>
                 </div>
               </div>
@@ -119,8 +118,7 @@ var AppRouter = Backbone.Router.extend({
                     viverra. Quisque lobortis dignissim viverra.
                   </p>
                 </div>
-                <div class="flex-child">
-                  <p>Image</p>
+                <div class="flex-chid--image-inside">
                 </div>
               </div>
               <div class="body-contact">
