@@ -555,9 +555,10 @@ textarea {
       color: #FFF; }
   #app-container p {
     text-shadow: 1px 1px #C8C5C5; }
-    #app-container .page-gulfstream .header {
+    #app-container .page-gulfstream {
   background-color: #fff;
 }
+
 #app-container .page-gulfstream .header .header-inner--wrapper {
   max-width: 1200px;
   padding: 0 10px;
