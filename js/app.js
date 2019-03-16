@@ -15,10 +15,150 @@ var AppRouter = Backbone.Router.extend({
    showGulStream : function() {
 
       appContainer.innerHTML =
-         `<div class = "gulfstream-page-wrapper">
-            <h1 id="test">Test</h1>
-         </div>`
-         console.log(test);
+         `
+
+         <div class="header">
+            <div class="header-inner--wrapper ">
+              <h1>Gulfstream</h1>
+              <h4 class="header-mobile">x</h4>
+              <ul class="header-nav-triplet">
+                <li class="header-subnav-anchor--aircraft">
+                  <h4>Aircraft</h4>
+                  <ul class="header-accordion">
+                    <li>
+                      <a
+                        href="http://www.gulfstream.com/aircraft/gulfstream-g650er"
+                        title="G650ER: new tab"
+                        target="_blank"
+                      >
+                        G650ER
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="http://www.gulfstream.com/aircraft/gulfstream-g650"
+                        title="G650"
+                      >
+                        G650
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">G600</a>
+                    </li>
+                    <li>
+                      <a href="#">G500</a>
+                    </li>
+                    <li>
+                      <a href="#">G550</a>
+                    </li>
+                    <li>
+                      <a href="#">G280</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <h4>Support</h4>
+                </li>
+                <li>
+                  <h4>Contact</h4>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="hero--wrapper">
+            <div class="hero--image">
+
+            </div>
+
+            <div class="hero-overlay">
+              <div class="hero-overlay--inner">
+                <h3>
+                  Creating and Delivering the{" "}
+                  <b>
+                    Worlds <span>Finest</span> Aviation Experience
+                  </b>
+                </h3>
+              </div>
+            </div>
+          </div>
+
+           <div class="body">
+            <div class="body--inner-wrapper">
+              <div class="body-content--flex body-content-right">
+                <div class="flex-child flex-child--copy">
+                  <h2>Neque porro quisquam est qui</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+                    vitae orci sit amet mi varius commodo quis ac erat. Aliquam erat
+                    volutpat. Cras tincidunt massa id pharetra tincidunt. Nulla
+                    tincidunt est felis. In leo nisi, luctus sed dignissim ut, posuere
+                    vitae orci. Nulla facilisi. Suspendisse purus libero, pellentesque
+                    id urna non, efficitur euismod tellus. Mauris hendrerit ex id enim
+                    feugiat, vitae iaculis elit placerat. Morbi efficitur leo in laoreet
+                    viverra. Quisque lobortis dignissim viverra.
+                  </p>
+                </div>
+                <div class="flex-child">
+                  <div>
+                    <p>Image</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="body-content--flex">
+                <div class="flex-child flex-child--copy">
+                  <h2>Neque porro quisquam est qui</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+                    vitae orci sit amet mi varius commodo quis ac erat. Aliquam erat
+                    volutpat. Cras tincidunt massa id pharetra tincidunt. Nulla
+                    tincidunt est felis. In leo nisi, luctus sed dignissim ut, posuere
+                    vitae orci. Nulla facilisi. Suspendisse purus libero, pellentesque
+                    id urna non, efficitur euismod tellus. Mauris hendrerit ex id enim
+                    feugiat, vitae iaculis elit placerat. Morbi efficitur leo in laoreet
+                    viverra. Quisque lobortis dignissim viverra.
+                  </p>
+                </div>
+                <div class="flex-child">
+                  <p>Image</p>
+                </div>
+              </div>
+              <div class="body-contact">
+                <div class="body-contact--inner">
+                  <form>
+                    <div class="body--contact--input">
+                      <label for="input1">Full Name</label>
+                      <input width="48" type="text" id="name" />
+                    </div>
+                    <div class="body--contact--input">
+                      <label for="input1">Email &#42;</label>
+                      <input type="text" id="email" />
+                    </div>
+                    <div class="body--contact--input input--lg">
+                      <label for="input1">Message</label>
+                      <input type="text" id="message" />
+                    </div>
+                    <input
+                      id="contactSubmit"
+                      class="body--contact-submit"
+                      type="submit"
+                      value="Submit"
+                    />
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer">
+            <div class="footer--inner">
+              <div class="footer-copy-container">
+                <h2>Gulfstream Aerospace Corporation </h2>
+                <h2>
+                  &#169; <span class="footer--copywrite-year" />
+                </h2>
+              </div>
+            </div>
+          </div>`
    },
 
 //hover effect http://miketricking.github.io/dist/
