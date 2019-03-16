@@ -16,7 +16,7 @@ var AppRouter = Backbone.Router.extend({
 
       appContainer.innerHTML =
          `
-
+<div class="page-gulfstream">
          <div class="header">
             <div class="header-inner--wrapper ">
               <h1>Gulfstream</h1>
@@ -82,8 +82,8 @@ var AppRouter = Backbone.Router.extend({
             </div>
           </div>
 
-           <div class="body">
-            <div class="body--inner-wrapper">
+           <div class="content-body">
+            <div class="content-body--inner-wrapper">
               <div class="body-content--flex body-content-right">
                 <div class="flex-child flex-child--copy">
                   <h2>Neque porro quisquam est qui</h2>
@@ -158,6 +158,7 @@ var AppRouter = Backbone.Router.extend({
                 </h2>
               </div>
             </div>
+          </div>
           </div>`
    },
 

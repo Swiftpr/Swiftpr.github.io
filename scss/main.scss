@@ -278,6 +278,7 @@
    }
 
 
+   .page-gulfstream {
    @gul-blue--primary : #2b455d;
    @gul-blue--secondary : #041c2c;
 
@@ -405,8 +406,8 @@
      }
    }
 
-   .body {
-     .body--inner-wrapper {
+   .body-content {
+     .body-content--inner-wrapper {
        max-width: 900px;
        margin: 0 auto;
        padding: 0 1vw;
@@ -497,6 +498,7 @@
        }
      }
    }
+}
 
 
 
