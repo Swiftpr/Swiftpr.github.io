@@ -555,10 +555,7 @@ textarea {
       color: #FFF; }
   #app-container p {
     text-shadow: 1px 1px #C8C5C5; }
-    #app-container .page-gulfstream {
-  background-color: #fff;
-}
-#app-container .page-gulfstream .header {
+    #app-container .page-gulfstream .header {
   background-color: #2b455d;
 }
 #app-container .page-gulfstream .header .header-inner--wrapper {
@@ -658,6 +655,59 @@ textarea {
     flex: 0 1 100%;
   }
 }
+#app-container .page-gulfstream .hero--wrapper {
+  position: relative;
+}
+#app-container .page-gulfstream .hero--image {
+  background-image: url(" https://fillmurray.com/1900/1080");
+  padding-bottom: 100vw;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: 5;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#app-container .page-gulfstream .hero-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 12;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#app-container .page-gulfstream .hero-overlay h3 {
+  font-weight: normal;
+  color: white;
+  font-size: 1.5em;
+  transform: scale(0);
+  animation: 1s zoom 1.5s ease-in-out forwards;
+}
+#app-container .page-gulfstream .hero-overlay b {
+  text-transform: uppercase;
+  display: block;
+}
+#app-container .page-gulfstream .hero-overlay span {
+  font-family: cursive;
+}
+@keyframes zoom {
+  100% {
+    transform: scale(1);
+  }
+}
+@media only screen and (max-width: 768px) {
+  #app-container .page-gulfstream .hero--image {
+    padding-bottom: 56%;
+    background-attachment: inherit;
+  }
+  #app-container .page-gulfstream .hero-overlay {
+    margin-left: 4%;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+}
 #app-container .page-gulfstream .content-body .content-body--inner-wrapper {
   max-width: 900px;
   margin: 0 auto;
@@ -681,12 +731,16 @@ textarea {
   max-width: 500px;
   width: 100%;
 }
+#app-container .page-gulfstream .content-body .body-content--flex .flex-child:last-of-type {
+  background-image: url(" https://fillmurray.com/200/300") cover no-repeat center;
+}
 #app-container .page-gulfstream .content-body .body-content-right {
   background-color: #2b455d;
   color: white;
 }
 #app-container .page-gulfstream .content-body .body-content-right .flex-child:last-of-type {
   order: -1;
+  background-image: url(" https://fillmurray.com/200/300") cover no-repeat center;
 }
 #app-container .page-gulfstream .content-body .body-contact {
   margin: 40px auto;
@@ -729,6 +783,26 @@ textarea {
     order: 1;
   }
 }
+#app-container .page-gulfstream .footer {
+  background-color: #2b455d;
+  color: white;
+}
+#app-container .page-gulfstream .footer .footer--inner {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+#app-container .page-gulfstream .footer .footer-copy-container {
+  display: flex;
+  justify-content: center;
+}
+#app-container .page-gulfstream .footer .footer-copy-container h2:first-of-type {
+  padding-right: 5px;
+}
+
+
+
+
 
 
 
