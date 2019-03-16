@@ -13,8 +13,8 @@ var AppRouter = Backbone.Router.extend({
    },
 
    showGulStream : function() {
-      console.log("document.getElementbyID("test")");
-      
+      console.log(document.getElementbyID("test"));
+
       appContainer.innerHTML =
          `<div class = "gulfstream-page-wrapper">
             <h1 id="test">Test</h1>
