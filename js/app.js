@@ -7,8 +7,20 @@ var AppRouter = Backbone.Router.extend({
       "contact" : "showContact",
       "about" : 'showAbout',
       "works" : "showWorks",
+      "gulfstream" : "showGulStream",
       "*path": "showHome"
 
+   },
+
+   showGulStream : function() {
+      appConainter.innerHTML =
+      <div>
+         <a href="#"
+         </a>
+      </div>
+      <div>
+         <h1>Test</h1>
+      </div>
    },
 
 //hover effect http://miketricking.github.io/dist/
