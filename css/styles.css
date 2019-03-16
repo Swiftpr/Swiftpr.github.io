@@ -731,16 +731,18 @@ textarea {
   max-width: 500px;
   width: 100%;
 }
-#app-container .page-gulfstream .content-body .body-content--flex .flex-child:last-of-type {
-  background-image: url(" ../images/g500_image_1.jpg") cover no-repeat center;
+#app-container .page-gulfstream .content-body .body-content--flex .flex-chid--image-flight {
+  background-image: url(" ../images/g500_image_1.jpg") center no-repeat;
+  background-size: cover;
 }
 #app-container .page-gulfstream .content-body .body-content-right {
   background-color: #2b455d;
   color: white;
 }
-#app-container .page-gulfstream .content-body .body-content-right .flex-child:last-of-type {
+#app-container .page-gulfstream .content-body .body-content-right .flex-chid--image-inside {
   order: -1;
-  background-image: url(" ../images/g500_image_2.jpg") cover no-repeat center;
+  background-image: url(" ../images/g500_image_2.jpg") center no-repeat;
+  background-size: cover;
 }
 #app-container .page-gulfstream .content-body .body-contact {
   margin: 40px auto;
