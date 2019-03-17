@@ -12,19 +12,18 @@ var AppRouter = Backbone.Router.extend({
 
    },
 
-   showGulStream : function() {
+   function autoCopyright(){
+      let currentDate = document.getElementsByClassName("footer--copywrite-year");
+      console.log(currentDate);
+      for (let i = 0; i < currentDate.length; i++) {
+         var d = new Date();
+         currentDate[i].innerHTML = d.getFullYear();
+      }
+   };
 
-      console.log(document.getElementsByClassName('header-subnav-anchor--aircraft'))
+   showGulStream : function() {
       autoCopyright();
 
-      function autoCopyright(){
-         let currentDate = document.getElementsByClassName("footer--copywrite-year");
-         console.log(currentDate);
-         for (let i = 0; i < currentDate.length; i++) {
-            var d = new Date();
-            currentDate[i].innerHTML = d.getFullYear();
-         }
-      };
 
       appContainer.innerHTML =
          `
