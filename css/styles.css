@@ -716,7 +716,7 @@ textarea {
 }
 #app-container .page-gulfstream .content-body .body-content--flex {
   display: flex;
-  justify-content: space-betweceen;
+  justify-content: space-between;
   align-items: center;
   border: 1px solid black;
   margin: 40px 0 0;
@@ -745,7 +745,7 @@ textarea {
   background-color: #2b455d;
   color: white;
 }
-#app-container .page-gulfstream .content-body .body-content-right .flex-child:last-of-type {
+#app-container .page-gulfstream .content-body .body-content-right .flex-chid--image-inside {
   order: -1;
   background-image: url(" ../images/g500_image_2.jpg");
   background-position: center;
