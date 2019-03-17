@@ -1,11 +1,10 @@
 
 
-var appContainer = document.querySelector("#app-container")
+var appContainer = document.querySelector("#app-container"),
 
 
-function autoCopyright(){
+ var autoCopyright = function(){
    let currentDate = document.getElementsByClassName("footer--copywrite-year");
-   console.log(currentDate);
    for (let i = 0; i < currentDate.length; i++) {
       var d = new Date();
       currentDate[i].innerHTML = d.getFullYear();
@@ -25,7 +24,6 @@ var AppRouter = Backbone.Router.extend({
    },
 
    showGulStream : function() {
-      autoCopyright();
 
       appContainer.innerHTML =
 
