@@ -627,6 +627,7 @@ textarea {
   }
   #app-container .page-gulfstream .header .header-inner--wrapper {
     overflow: hidden;
+    position: relative;
   }
   #app-container .page-gulfstream .header .header-mobile {
     visibility: visible;
@@ -731,7 +732,7 @@ textarea {
   max-width: 500px;
   width: 100%;
 }
-#app-container .page-gulfstream .content-body .body-content--flex .flex-child:last-of-type.flex-chid--image-inside  {
+#app-container .page-gulfstream .content-body .body-content--flex .flex-child:last-of-type  {
   background-image: url("../images/g500_image_1.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -741,7 +742,7 @@ textarea {
   background-color: #2b455d;
   color: white;
 }
-#app-container .page-gulfstream .content-body .body-content-right .flex-child:last-of-type.flex.flex-chid--image-inside {
+#app-container .page-gulfstream .content-body .body-content-right .flex-child:last-of-type {
   order: -1;
   background-image: url("../images/g500_image_2.jpg");
   background-repeat: no-repeat;
