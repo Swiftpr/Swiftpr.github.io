@@ -2,6 +2,18 @@
 
 var appContainer = document.querySelector("#app-container")
 
+
+function autoCopyright(){
+   let currentDate = document.getElementsByClassName("footer--copywrite-year");
+   console.log(currentDate);
+   for (let i = 0; i < currentDate.length; i++) {
+      var d = new Date();
+      currentDate[i].innerHTML = d.getFullYear();
+   }
+},
+
+
+
 var AppRouter = Backbone.Router.extend({
    routes: {
       "contact" : "showContact",
@@ -13,23 +25,10 @@ var AppRouter = Backbone.Router.extend({
    },
 
    showGulStream : function() {
-
-      let currentDate = document.getElementsByClassName("footer--copywrite-year");
-      console.log(currentDate);
-
-      function autoCopyright(){
-         let currentDate = document.getElementsByClassName("footer--copywrite-year");
-         console.log(currentDate);
-         for (let i = 0; i < currentDate.length; i++) {
-            var d = new Date();
-            currentDate[i].innerHTML = d.getFullYear();
-         }
-      },
-
       autoCopyright();
 
-
       appContainer.innerHTML =
+
          `
       <div class="page-gulfstream">
          <div class="header">
