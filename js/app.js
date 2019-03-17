@@ -15,15 +15,6 @@ var AppRouter = Backbone.Router.extend({
 
    showGulStream : function() {
 
-      var autoDate =  function(){
-         console.log("hello");
-         // let currentDate = document.getElementsByClassName("footer--copywrite-year");
-         // for (let i = 0; i < currentDate.length; i++) {
-         //    var d = new Date();
-         //    currentDate[i].innerHTML = d.getFullYear();
-         // }
-      },
-
       appContainer.innerHTML =
          `
 <div class="page-gulfstream">
@@ -302,7 +293,7 @@ var AppRouter = Backbone.Router.extend({
                   <img src="./images/API.png" alt="...">
                   <div class="caption">
                     <h3>API</h3>
-                    <p>An individual project pulling from Netflix's API, then dynamically sorting it by list of programming per user. </p>
+                    <p>An individual project pulling from Netflixs API, then dynamically sorting it by list of programming per user. </p>
                     <p>Click to see the code at GitHub</p>
                      </a>
                   </div>
@@ -317,10 +308,10 @@ var AppRouter = Backbone.Router.extend({
                   <img src="./images/HTML-CSS.png" alt="...">
                   <div class="caption">
                     <h3>Basic HTML and CSS </h3>
-                    <p>A site mock up using basic HTML, CSS, and everyone's favorite "footwear" constructor.</p>
+                    <p>A site mock up using basic HTML, CSS, and everyones favorite footwear constructor.</p>
                      <p>Click to see the code at GitHub</p>
                      </a>
-                     <a href="https://paulrswift.github.io/Assignment-07-CSS-Frameworks-SolrodStrand/"><p>Click here to see a static version<P></a>
+                     <a href="https://paulrswift.github.io/Assignment-07-CSS-Frameworks-SolrodStrand/"><p>Click here to see version</p></a>
                   </div>
                 </div>
               </div>
