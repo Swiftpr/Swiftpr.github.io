@@ -14,6 +14,17 @@ var AppRouter = Backbone.Router.extend({
 
    showGulStream : function() {
 
+      function autoCopyright(){
+         let currentDate = document.getElementByClassName("footer--copywrite-year");
+
+         for (var i = 0; i < currentDate.length; i++) {
+            var d = new Date();
+            currentDate[i].innerHTML = d.getFullYear();
+         }
+      };
+
+      autoCopyright();
+
       appContainer.innerHTML =
          `
 <div class="page-gulfstream">
