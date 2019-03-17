@@ -38,7 +38,7 @@ var AppRouter = Backbone.Router.extend({
          <div class="header">
             <div class="header-inner--wrapper ">
               <h1>Gulfstream</h1>
-              <h4 class="header-mobile">x</h4>
+              <h4 class="header-mobile"><i id="mobile-hamburger"class="fas fa-bars"></i></h4>
               <ul class="header-nav-triplet">
                 <li class="header-subnav-anchor--aircraft">
                   <h4 class="button-up">Aircraft</h4>
@@ -166,7 +166,7 @@ var AppRouter = Backbone.Router.extend({
               <div class="footer-copy-container">
                 <h2>Gulfstream Aerospace Corporation </h2>
                 <h2>
-                  &#169; <span class="footer--copywrite-year" />
+                  &#169; <span id="footer--copywrite-year">2019</span>
                 </h2>
               </div>
             </div>
