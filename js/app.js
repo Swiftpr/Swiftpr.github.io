@@ -39,8 +39,8 @@ var AppRouter = Backbone.Router.extend({
             <div class="header-inner--wrapper ">
               <h1>Gulfstream</h1>
               <h4 class="header-mobile">x</h4>
-              <ul id="myButtons" class="header-nav-triplet">
-                <li class="header-subnav-anchor--aircraft">
+              <ul class="header-nav-triplet">
+                <li id="myButtons" class="header-subnav-anchor--aircraft">
                   <button class="button-up"><h4>Aircraft</h4></button>
                   <ul class="header-accordion">
                     <li>
