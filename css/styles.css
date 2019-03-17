@@ -715,7 +715,7 @@ textarea {
 }
 #app-container .page-gulfstream .content-body .body-content--flex {
   display: flex;
-  justify-content: space-betweceen;
+  justify-content: space-between;
   align-items: center;
   border: 1px solid black;
   margin: 40px 0 0;
@@ -732,7 +732,7 @@ textarea {
   width: 100%;
 }
 #app-container .page-gulfstream .content-body .body-content--flex .flex-chid--image-flight {
-  background-image: url(" ../images/g500_image_1.jpg");
+  background-image: url("../images/g500_image_1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -741,9 +741,9 @@ textarea {
   background-color: #2b455d;
   color: white;
 }
-#app-container .page-gulfstream .content-body .body-content-right .flex-chid--image-inside {
+#app-container .page-gulfstream .content-body .body-content-right .flex-chid:last-of-type {
   order: -1;
-  background-image: url(" ../images/g500_image_2.jpg");
+  background-image: url("../images/g500_image_2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
