@@ -731,11 +731,14 @@ textarea {
   max-width: 500px;
   width: 100%;
 }
-#app-container .page-gulfstream .content-body .body-content--flex .flex-child:last-of-type {
+#app-container .page-gulfstream .content-body .body-content--flex .flex-chid--image-inside {
    background-image: url(" ../images/g500_image_1.jpg");
    background-position: center center;
    background-repeat: no-repeat;
    background-size: cover;
+   max-width: 200px;
+   width: 100%;
+   height: 200px;
 }
 #app-container .page-gulfstream .content-body .body-content-right {
   background-color: #2b455d;
@@ -747,6 +750,9 @@ textarea {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  max-width: 200px;
+  width: 100%;
+  height: 200px;
 }
 #app-container .page-gulfstream .content-body .body-contact {
   margin: 40px auto;
