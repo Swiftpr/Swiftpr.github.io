@@ -1,4 +1,21 @@
+var BlahView = Backbone.View.extend({
 
+  events: {
+    "click .button-up": "transitionUp",
+    "click .button-down": "tranistionDown",
+  },
+
+  transitionUp: function() {
+    console.log("Transition up");
+  },
+
+  tranistionDown: function() {
+    console.log("Transition down")
+  }
+
+});
+
+var blahView = new BlahView({ el: $('#myButtons') });
 
 var appContainer = document.querySelector("#app-container")
 
@@ -24,7 +41,7 @@ var AppRouter = Backbone.Router.extend({
               <h4 class="header-mobile">x</h4>
               <ul class="header-nav-triplet">
                 <li class="header-subnav-anchor--aircraft">
-                  <h4>Aircraft</h4>
+                  <h4 class="button-up">Aircraft</h4>
                   <ul class="header-accordion">
                     <li>
                       <a
