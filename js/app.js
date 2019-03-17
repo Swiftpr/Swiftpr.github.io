@@ -12,16 +12,20 @@ var AppRouter = Backbone.Router.extend({
 
    },
 
-   function autoCopyright(){
+   showGulStream : function() {
+
       let currentDate = document.getElementsByClassName("footer--copywrite-year");
       console.log(currentDate);
-      for (let i = 0; i < currentDate.length; i++) {
-         var d = new Date();
-         currentDate[i].innerHTML = d.getFullYear();
-      }
-   },
 
-   showGulStream : function() {
+      function autoCopyright(){
+         let currentDate = document.getElementsByClassName("footer--copywrite-year");
+         console.log(currentDate);
+         for (let i = 0; i < currentDate.length; i++) {
+            var d = new Date();
+            currentDate[i].innerHTML = d.getFullYear();
+         }
+      },
+
       autoCopyright();
 
 
