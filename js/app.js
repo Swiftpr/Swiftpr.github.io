@@ -19,7 +19,7 @@ var AppRouter = Backbone.Router.extend({
          var d = new Date();
          currentDate[i].innerHTML = d.getFullYear();
       }
-   };
+   },
 
    showGulStream : function() {
       autoCopyright();
