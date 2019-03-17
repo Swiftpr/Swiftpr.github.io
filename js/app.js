@@ -98,10 +98,7 @@ var AppRouter = Backbone.Router.extend({
                     viverra. Quisque lobortis dignissim viverra.
                   </p>
                 </div>
-                <div class="flex-child">
-                  <div class="flex-chid--image-flight">
-                  </div>
-                </div>
+                <div class="flex-child flex-chid--image-flight"></div>
               </div>
 
               <div class="body-content--flex">
@@ -118,8 +115,7 @@ var AppRouter = Backbone.Router.extend({
                     viverra. Quisque lobortis dignissim viverra.
                   </p>
                 </div>
-                <div class="flex-chid--image-inside">
-                </div>
+                <div class="flex-chid--image-inside"></div>
               </div>
               <div class="body-contact">
                 <div class="body-contact--inner">
