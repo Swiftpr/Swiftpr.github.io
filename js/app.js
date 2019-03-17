@@ -14,19 +14,19 @@ var AppRouter = Backbone.Router.extend({
 
    showGulStream : function() {
 
+      console.log(document.getElementsByClassName('header-subnav-anchor--aircraft'))
+      autoCopyright();
+
       function autoCopyright(){
          let currentDate = document.getElementsByClassName("footer--copywrite-year");
-
+         console.log(currentDate);
          for (let i = 0; i < currentDate.length; i++) {
             var d = new Date();
             currentDate[i].innerHTML = d.getFullYear();
          }
       };
 
-
-
       appContainer.innerHTML =
-      autoCopyright();
          `
       <div class="page-gulfstream">
          <div class="header">
