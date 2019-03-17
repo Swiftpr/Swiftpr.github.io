@@ -558,6 +558,9 @@ textarea {
   background-color: #fff;
 }
 
+#app-container .page-gulfstream .header {
+  background-color: #2b455d;
+}
 #app-container .page-gulfstream .header .header-inner--wrapper {
   max-width: 1200px;
   padding: 0 10px;
@@ -627,7 +630,6 @@ textarea {
   }
   #app-container .page-gulfstream .header .header-inner--wrapper {
     overflow: hidden;
-    position: relative;
   }
   #app-container .page-gulfstream .header .header-mobile {
     visibility: visible;
@@ -660,7 +662,7 @@ textarea {
   position: relative;
 }
 #app-container .page-gulfstream .hero--image {
-  background-image: url("../images/g500_hero_image.jpg");
+  background-image: url(" https://fillmurray.com/1900/1080");
   padding-bottom: 100vw;
   background-position: center center;
   background-repeat: no-repeat;
@@ -716,7 +718,7 @@ textarea {
 }
 #app-container .page-gulfstream .content-body .body-content--flex {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-betweceen;
   align-items: center;
   border: 1px solid black;
   margin: 40px 0 0;
@@ -732,11 +734,8 @@ textarea {
   max-width: 500px;
   width: 100%;
 }
-#app-container .page-gulfstream .content-body .body-content--flex .flex-child:last-of-type  {
-  background-image: url("../images/g500_image_1.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+#app-container .page-gulfstream .content-body .body-content--flex .flex-child:last-of-type {
+  background-image: url(" https://fillmurray.com/200/300") cover no-repeat center;
 }
 #app-container .page-gulfstream .content-body .body-content-right {
   background-color: #2b455d;
@@ -744,10 +743,7 @@ textarea {
 }
 #app-container .page-gulfstream .content-body .body-content-right .flex-child:last-of-type {
   order: -1;
-  background-image: url("../images/g500_image_2.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-image: url(" https://fillmurray.com/200/300") cover no-repeat center;
 }
 #app-container .page-gulfstream .content-body .body-contact {
   margin: 40px auto;
