@@ -9,8 +9,15 @@ var AppRouter = Backbone.Router.extend({
       "works" : "showWorks",
       "gulfstream" : "showGulStream",
       "*path": "showHome"
-
    },
+
+var autoDate =  function(){
+   let currentDate = document.getElementsByClassName("footer--copywrite-year");
+   for (let i = 0; i < currentDate.length; i++) {
+      var d = new Date();
+      currentDate[i].innerHTML = d.getFullYear();
+   }
+},
 
    showGulStream : function() {
 
