@@ -795,6 +795,13 @@ textarea {
     order: 1;
   }
 }
+@media only screen and (max-width: 414px) {
+   #app-container .page-gulfstream .content-body .body-content--flex .flex-child {
+      text-align: center;
+      max-width: 300px;
+      margin: 10px auto;
+   }
+}
 #app-container .page-gulfstream .footer {
   background-color: #2b455d;
   color: white;
