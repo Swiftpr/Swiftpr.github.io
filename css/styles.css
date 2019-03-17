@@ -558,9 +558,6 @@ textarea {
   background-color: #fff;
 }
 
-#app-container .page-gulfstream .header {
-  background-color: #2b455d;
-}
 #app-container .page-gulfstream .header .header-inner--wrapper {
   max-width: 1200px;
   padding: 0 10px;
@@ -737,9 +734,12 @@ textarea {
 }
 #app-container .page-gulfstream .content-body .body-content--flex .flex-child:last-of-type {
    background-image: url(" ../images/g500_image_1.jpg");
-   background-position: center center;
+   background-position: center;
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: contain;
+   max-width: 200px;
+   height: 200px;
+   margin: 10px;
 }
 #app-container .page-gulfstream .content-body .body-content-right {
   background-color: #2b455d;
@@ -748,9 +748,12 @@ textarea {
 #app-container .page-gulfstream .content-body .body-content-right .flex-child:last-of-type {
   order: -1;
   background-image: url(" ../images/g500_image_2.jpg");
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  max-width: 200px;
+  height: 200px;
+  margin: 10px;
 }
 #app-container .page-gulfstream .content-body .body-contact {
   margin: 40px auto;
