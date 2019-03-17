@@ -23,11 +23,12 @@ var AppRouter = Backbone.Router.extend({
          }
       };
 
-      autoCopyright();
+
 
       appContainer.innerHTML =
+      autoCopyright();
          `
-<div class="page-gulfstream">
+      <div class="page-gulfstream">
          <div class="header">
             <div class="header-inner--wrapper ">
               <h1>Gulfstream</h1>
@@ -164,7 +165,7 @@ var AppRouter = Backbone.Router.extend({
               </div>
             </div>
           </div>
-          </div>`
+      </div>`
    },
 
 //hover effect http://miketricking.github.io/dist/
