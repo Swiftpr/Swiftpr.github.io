@@ -3,13 +3,7 @@
 var appContainer = document.querySelector("#app-container"),
 
 
- var autoCopyright = function(){
-   let currentDate = document.getElementsByClassName("footer--copywrite-year");
-   for (let i = 0; i < currentDate.length; i++) {
-      var d = new Date();
-      currentDate[i].innerHTML = d.getFullYear();
-   }
-},
+
 
 
 
