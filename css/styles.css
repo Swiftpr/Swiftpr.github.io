@@ -772,6 +772,11 @@ textarea {
 #app-container .page-gulfstream .content-body .body--contact--input input[type='text'] {
   width: 200px;
 }
+
+#app-container .page-gulfstream .content-body .body--contact--input textarea {
+  width: 200px;
+}
+
 #app-container .page-gulfstream .content-body .body--contact--input.input--lg input {
   line-height: 150px;
 }

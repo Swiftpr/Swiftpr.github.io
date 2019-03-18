@@ -148,7 +148,7 @@ var AppRouter = Backbone.Router.extend({
                     </div>
                     <div class="body--contact--input input--lg">
                       <label for="input1">Message</label>
-                      <input type="text" id="message" />
+                      <textarea type="text" id="message" />
                     </div>
                     <input
                       id="contactSubmit"
